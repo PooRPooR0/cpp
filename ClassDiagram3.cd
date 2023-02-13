@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Date">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="getDay" Hidden="true" />
+      <Method Name="getMonth" Hidden="true" />
+      <Method Name="getYear" Hidden="true" />
+      <Method Name="setDay" Hidden="true" />
+      <Method Name="setMonth" Hidden="true" />
+      <Method Name="setYear" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQkAAAAIAAQAAAAAAQEQAAAAAQAAgIAAAAAAAQAQAA=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guitar">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="getColor" Hidden="true" />
+      <Method Name="getType" Hidden="true" />
+      <Method Name="setColor" Hidden="true" />
+      <Method Name="setType" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAQAAAAAARABAAKAAAAAgAAIAAA=</HashCode>
+      <FileName>Guitar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="getBuyerFio" Hidden="true" />
+      <Method Name="getCost" Hidden="true" />
+      <Method Name="getDate" Hidden="true" />
+      <Method Name="getGuitar" Hidden="true" />
+      <Method Name="getWorker" Hidden="true" />
+      <Method Name="setBuyerFio" Hidden="true" />
+      <Method Name="setCost" Hidden="true" />
+      <Method Name="setDate" Hidden="true" />
+      <Method Name="setGuitar" Hidden="true" />
+      <Method Name="setWorker" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EBYgAQEAAAARCAAAAAQAAAAAAAAQABIAAAAAEQAAEQA=</HashCode>
+      <FileName>Order.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="date" />
+      <Field Name="guitar" />
+      <Field Name="worker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Position">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="getMinSalary" Hidden="true" />
+      <Method Name="getPosName" Hidden="true" />
+      <Method Name="setMinSalary" Hidden="true" />
+      <Method Name="setPosName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAwAgAAAAAAAAAABAAQAAAAACIAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Position.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Worker">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="getFio" Hidden="true" />
+      <Method Name="getPosition" Hidden="true" />
+      <Method Name="getSalary" Hidden="true" />
+      <Method Name="setFio" Hidden="true" />
+      <Method Name="setPosition" Hidden="true" />
+      <Method Name="setSalary" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAICAAAIAgAAIgAAQAIAgCAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Worker.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="position" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
